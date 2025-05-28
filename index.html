@@ -1,0 +1,321 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendly Counselor - Emotional Support 24/7 | Chrome Extension</title>
+    <meta name="description" content="Get instant emotional support 24/7 with Friendly Counselor Chrome extension. Private, secure counseling with AI and expert therapists. Free plan available.">
+    <meta name="keywords" content="emotional support, mental health, counseling, therapy, chrome extension, anxiety relief, stress management, 24/7 support">
+    <meta name="author" content="Friendly Counselor">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://friendlycounselor.com/">
+    <meta property="og:title" content="Friendly Counselor - Your 24/7 Emotional Support">
+    <meta property="og:description" content="Get instant emotional support anytime with our Chrome extension. Private, secure, and always available.">
+    <meta property="og:image" content="hero-illustration.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://friendlycounselor.com/">
+    <meta property="twitter:title" content="Friendly Counselor - Your 24/7 Emotional Support">
+    <meta property="twitter:description" content="Get instant emotional support anytime with our Chrome extension. Private, secure, and always available.">
+    <meta property="twitter:image" content="hero-illustration.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Friendly Counselor",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Chrome",
+        "description": "24/7 emotional support Chrome extension with AI counseling and expert therapist access",
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Free Plan",
+                "price": "0",
+                "priceCurrency": "USD"
+            },
+            {
+                "@type": "Offer",
+                "name": "Silver Plan",
+                "price": "19",
+                "priceCurrency": "USD"
+            },
+            {
+                "@type": "Offer",
+                "name": "Gold Plan",
+                "price": "49",
+                "priceCurrency": "USD"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "1250"
+        }
+    }
+    </script>
+    
+    <link rel="canonical" href="https://friendlycounselor.com/">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="pt" title="Português">
+            <img src="brazil-flag.png" alt="Português">
+        </button>
+        <button class="lang-btn" data-lang="en" title="English">
+            <img src="usa-flag.png" alt="English">
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="logo.png" alt="Friendly Counselor" class="logo">
+                <span class="brand-text">Friendly Counselor</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-pt="Início" data-en="Home">Início</a>
+                <a href="#features" class="nav-link" data-pt="Recursos" data-en="Features">Recursos</a>
+                <a href="#plans" class="nav-link" data-pt="Planos" data-en="Plans">Planos</a>
+                <a href="#about" class="nav-link" data-pt="Sobre" data-en="About">Sobre</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span data-pt="Seu" data-en="Your">Seu</span> <span class="gradient-text" data-pt="Apoio Emocional" data-en="Emotional Support">Apoio Emocional</span><br>
+                        <span data-pt="Disponível 24/7" data-en="Available 24/7">Disponível 24/7</span>
+                    </h1>
+                    <p class="hero-description" data-pt="Encontre suporte, compreensão e orientação sempre que precisar. O Friendly Counselor está aqui para ajudar você em todos os momentos." data-en="Find support, understanding and guidance whenever you need it. Friendly Counselor is here to help you through every moment.">
+                        Encontre suporte, compreensão e orientação sempre que precisar. 
+                        O Friendly Counselor está aqui para ajudar você em todos os momentos.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://chromewebstore.google.com/detail/dpccjdmjjhfmmfpbgbklmnihiphaidkp?authuser=0&hl=pt-BR" target="_blank" class="btn btn-primary">
+                            <img src="chrome-icon.png" alt="Chrome" class="btn-icon">
+                            <span data-pt="Instalar Extensão" data-en="Install Extension">Instalar Extensão</span>
+                        </a>
+                        <button class="btn btn-secondary" onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+                            <span data-pt="Saiba Mais" data-en="Learn More">Saiba Mais</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-illustration.png" alt="Apoio Emocional" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Por que escolher o Friendly Counselor?" data-en="Why choose Friendly Counselor?">Por que escolher o Friendly Counselor?</h2>
+                <p class="section-subtitle" data-pt="Cuidando do seu bem-estar com tecnologia e humanidade" data-en="Caring for your wellbeing with technology and humanity">Cuidando do seu bem-estar com tecnologia e humanidade</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="privacy-icon.png" alt="Privacidade">
+                    </div>
+                    <h3 class="feature-title" data-pt="100% Privado e Seguro" data-en="100% Private & Secure">100% Privado e Seguro</h3>
+                    <p class="feature-description" data-pt="Suas conversas são completamente confidenciais. Ambiente seguro e protegido para você se expressar livremente." data-en="Your conversations are completely confidential. Safe and protected environment for you to express yourself freely.">Suas conversas são completamente confidenciais. Ambiente seguro e protegido para você se expressar livremente.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="support-icon.png" alt="Suporte 24/7">
+                    </div>
+                    <h3 class="feature-title" data-pt="Disponível 24/7" data-en="Available 24/7">Disponível 24/7</h3>
+                    <p class="feature-description" data-pt="Apoio emocional quando você mais precisa, a qualquer hora do dia ou da noite, sem julgamentos." data-en="Emotional support when you need it most, any time of day or night, without judgment.">Apoio emocional quando você mais precisa, a qualquer hora do dia ou da noite, sem julgamentos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="expert-icon.png" alt="Especialistas">
+                    </div>
+                    <h3 class="feature-title" data-pt="Conselheiros Especialistas" data-en="Expert Counselors">Conselheiros Especialistas</h3>
+                    <p class="feature-description" data-pt="Acesso a profissionais qualificados com o plano Gold para um suporte ainda mais personalizado." data-en="Access to qualified professionals with Gold plan for even more personalized support.">Acesso a profissionais qualificados com o plano Gold para um suporte ainda mais personalizado.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="instant-icon.png" alt="Alívio Instantâneo">
+                    </div>
+                    <h3 class="feature-title" data-pt="Alívio Imediato" data-en="Immediate Relief">Alívio Imediato</h3>
+                    <p class="feature-description" data-pt="Suporte instantâneo para momentos de ansiedade, estresse ou conflitos pessoais." data-en="Instant support for moments of anxiety, stress or personal conflicts.">Suporte instantâneo para momentos de ansiedade, estresse ou conflitos pessoais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="plans">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-pt="Escolha o plano ideal para você" data-en="Choose the perfect plan for you">Escolha o plano ideal para você</h2>
+                <p class="section-subtitle" data-pt="Opções flexíveis para atender suas necessidades de apoio emocional" data-en="Flexible options to meet your emotional support needs">Opções flexíveis para atender suas necessidades de apoio emocional</p>
+            </div>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3 class="plan-name" data-pt="Gratuito" data-en="Free">Gratuito</h3>
+                        <div class="plan-price">
+                            <span class="price">$0</span>
+                            <span class="period" data-pt="/mês" data-en="/month">/mês</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li data-pt="7 minutos de conversa por sessão" data-en="7 minutes conversation per session">7 minutos de conversa por sessão</li>
+                        <li data-pt="Acesso ao assistente virtual" data-en="Access to virtual assistant">Acesso ao assistente virtual</li>
+                        <li data-pt="Ideal para ansiedade rápida" data-en="Ideal for quick anxiety relief">Ideal para ansiedade rápida</li>
+                        <li data-pt="Suporte básico" data-en="Basic support">Suporte básico</li>
+                    </ul>
+                    <button class="plan-btn" data-pt="Começar Grátis" data-en="Start Free">Começar Grátis</button>
+                </div>
+                <div class="plan-card plan-popular">
+                    <div class="plan-badge" data-pt="Mais Popular" data-en="Most Popular">Mais Popular</div>
+                    <div class="plan-header">
+                        <h3 class="plan-name" data-pt="Prata" data-en="Silver">Prata</h3>
+                        <div class="plan-price">
+                            <span class="price">$19</span>
+                            <span class="period" data-pt="/mês" data-en="/month">/mês</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li data-pt="15 minutos de conversa por sessão" data-en="15 minutes conversation per session">15 minutos de conversa por sessão</li>
+                        <li data-pt="Prioridade na fila de resposta" data-en="Priority in response queue">Prioridade na fila de resposta</li>
+                        <li data-pt="Conversas mais profundas" data-en="Deeper conversations">Conversas mais profundas</li>
+                        <li data-pt="Suporte prioritário" data-en="Priority support">Suporte prioritário</li>
+                    </ul>
+                    <button class="plan-btn" data-pt="Escolher Prata" data-en="Choose Silver">Escolher Prata</button>
+                </div>
+                <div class="plan-card plan-premium">
+                    <div class="plan-header">
+                        <h3 class="plan-name" data-pt="Ouro" data-en="Gold">Ouro</h3>
+                        <div class="plan-price">
+                            <span class="price">$49</span>
+                            <span class="period" data-pt="/mês" data-en="/month">/mês</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li data-pt="30 minutos de conversa por sessão" data-en="30 minutes conversation per session">30 minutos de conversa por sessão</li>
+                        <li data-pt="Conselheiros especialistas" data-en="Expert counselors">Conselheiros especialistas</li>
+                        <li data-pt="Sessão semanal de 1 hora" data-en="Weekly 1-hour session">Sessão semanal de 1 hora</li>
+                        <li data-pt="Suporte VIP" data-en="VIP support">Suporte VIP</li>
+                    </ul>
+                    <button class="plan-btn" data-pt="Escolher Ouro" data-en="Choose Gold">Escolher Ouro</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="about-title" data-pt="Seu bem-estar é nossa prioridade" data-en="Your wellbeing is our priority">Seu bem-estar é nossa prioridade</h2>
+                    <p class="about-description" data-pt="O Friendly Counselor nasceu da necessidade de democratizar o acesso ao apoio emocional. Sabemos que nem sempre é fácil encontrar alguém para conversar nos momentos mais difíceis." data-en="Friendly Counselor was born from the need to democratize access to emotional support. We know it's not always easy to find someone to talk to in the most difficult moments.">
+                        O Friendly Counselor nasceu da necessidade de democratizar o acesso ao apoio emocional. 
+                        Sabemos que nem sempre é fácil encontrar alguém para conversar nos momentos mais difíceis.
+                    </p>
+                    <p class="about-description" data-pt="Nossa missão é proporcionar um espaço seguro, acolhedor e sempre disponível para você encontrar o suporte que precisa, quando precisar." data-en="Our mission is to provide a safe, welcoming space that's always available for you to find the support you need, when you need it.">
+                        Nossa missão é proporcionar um espaço seguro, acolhedor e sempre disponível para você 
+                        encontrar o suporte que precisa, quando precisar.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">10k+</span>
+                            <span class="stat-label" data-pt="Usuários Ativos" data-en="Active Users">Usuários Ativos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50k+</span>
+                            <span class="stat-label" data-pt="Conversas Realizadas" data-en="Conversations Held">Conversas Realizadas</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label" data-pt="Satisfação" data-en="Satisfaction">Satisfação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="about-illustration.png" alt="Sobre nós" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-pt="Pronto para começar sua jornada de bem-estar?" data-en="Ready to start your wellness journey?">Pronto para começar sua jornada de bem-estar?</h2>
+                <p class="cta-description" data-pt="Instale a extensão agora e tenha acesso imediato ao apoio emocional que você merece." data-en="Install the extension now and get immediate access to the emotional support you deserve.">
+                    Instale a extensão agora e tenha acesso imediato ao apoio emocional que você merece.
+                </p>
+                <a href="https://chromewebstore.google.com/detail/dpccjdmjjhfmmfpbgbklmnihiphaidkp?authuser=0&hl=pt-BR" target="_blank" class="btn btn-primary btn-large">
+                    <img src="chrome-icon.png" alt="Chrome" class="btn-icon">
+                    <span data-pt="Instalar no Chrome" data-en="Install on Chrome">Instalar no Chrome</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="Friendly Counselor" class="footer-logo">
+                    <p class="footer-description" data-pt="Seu apoio emocional disponível 24/7. Cuidando do seu bem-estar com tecnologia e humanidade." data-en="Your 24/7 emotional support. Caring for your wellbeing with technology and humanity.">
+                        Seu apoio emocional disponível 24/7. Cuidando do seu bem-estar com tecnologia e humanidade.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title" data-pt="Produto" data-en="Product">Produto</h4>
+                        <a href="#features" class="footer-link" data-pt="Recursos" data-en="Features">Recursos</a>
+                        <a href="#plans" class="footer-link" data-pt="Planos" data-en="Plans">Planos</a>
+                        <a href="#" class="footer-link" data-pt="Suporte" data-en="Support">Suporte</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title" data-pt="Empresa" data-en="Company">Empresa</h4>
+                        <a href="#about" class="footer-link" data-pt="Sobre" data-en="About">Sobre</a>
+                        <a href="#" class="footer-link" data-pt="Privacidade" data-en="Privacy">Privacidade</a>
+                        <a href="#" class="footer-link" data-pt="Termos" data-en="Terms">Termos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Friendly Counselor. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
